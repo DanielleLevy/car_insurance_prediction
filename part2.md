@@ -3,7 +3,6 @@
 ## Introduction
 In this section, we will improve the baseline model developed in Part 1. We'll analyze the model's errors, implement various improvements, and compare the performance of the improved model to the baseline model.
 
-
 ## Error Analysis and Conclusions
 
 Based on the error analysis conducted in Part 1, we had the following conclusion:
