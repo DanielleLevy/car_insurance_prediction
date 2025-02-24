@@ -1,0 +1,8 @@
+fairlearn
+fairness_functions
+imblearn
+numpy
+pandas
+sklearn
+tensorflow
+ucimlrepo
