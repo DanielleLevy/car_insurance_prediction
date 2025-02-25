@@ -1,0 +1,173 @@
+Adult Dataset
+=== Baseline Model Metrics ===
+Accuracy: 0.8441274824268068
+F1 score: 0.6361898693851545
+Demographic Parity Difference: 0.17919736394385982
+Equalized Odds Difference: 0.11907143007845583
+
+=== Naive Model Metrics ===
+Accuracy: 0.8464478263836757
+F1 score: 0.638030888030888
+Demographic Parity Difference: 0.16917128243556473
+Equalized Odds Difference: 0.10156941819705284
+
+
+Pareto Frontier configurations:
+Pre-processing: None. In-training: Baseline. Post-processing:None: {'accuracy': 0.8440592370163107, 'f1_score': 0.6346922462030375, 'Demographic_parity': 0.1682295517239974, 'Equalized_odds': 0.09582945273811783}
+Pre-processing: None. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8303419095065857, 'f1_score': 0.5737311385459534, 'Demographic_parity': 0.08008616195306252, 'Equalized_odds': 0.006401249024199862}
+Pre-processing: None. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8269978843922746, 'f1_score': 0.5816141277438521, 'Demographic_parity': 0.0001539371549044155, 'Equalized_odds': 0.28427718451137657}
+Pre-processing: None. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.830478400327578, 'f1_score': 0.5652782639131957, 'Demographic_parity': 0.07511393723220912, 'Equalized_odds': 0.004457786659191831}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.8263836756978094, 'f1_score': 0.5699797160243407, 'Demographic_parity': 0.01848449543211239, 'Equalized_odds': 0.26270378776233577}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8251552583088787, 'f1_score': 0.5465486725663716, 'Demographic_parity': 0.07288668002889348, 'Equalized_odds': 0.008984293761811368}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None: {'accuracy': 0.8278168293182283, 'f1_score': 0.5918136223911988, 'Demographic_parity': 0.09418435175883494, 'Equalized_odds': 0.024725494983106167}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8016788370982052, 'f1_score': 0.5603630862329804, 'Demographic_parity': 0.0008227907318909267, 'Equalized_odds': 0.08733930602773451}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.823380877635979, 'f1_score': 0.5851234369990381, 'Demographic_parity': 0.08738576184670138, 'Equalized_odds': 0.005981692632746505}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:None: {'accuracy': 0.8306148911485702, 'f1_score': 0.5909690177982861, 'Demographic_parity': 0.04108861633479077, 'Equalized_odds': 0.20981496719201637}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.825291749129871, 'f1_score': 0.5496129486277269, 'Demographic_parity': 0.0021767360710087114, 'Equalized_odds': 0.2785528921360303}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8296594554016242, 'f1_score': 0.5902823374917925, 'Demographic_parity': 0.08878810664063627, 'Equalized_odds': 0.009766742319435529}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:None: {'accuracy': 0.8297277008121204, 'f1_score': 0.5586414293295595, 'Demographic_parity': 0.03286980492036756, 'Equalized_odds': 0.22800177226406737}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8300689278646011, 'f1_score': 0.5867905741785596, 'Demographic_parity': 0.08450971247236724, 'Equalized_odds': 0.013088230418441205}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.7670784139766601, 'f1_score': 0.16163104888233848, 'Demographic_parity': 0.018734454248461714, 'Equalized_odds': 0.02452053927463764}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.7627107077049069, 'f1_score': 0.10960307298335467, 'Demographic_parity': 0.0008566745516044687, 'Equalized_odds': 0.06299494543054263}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.7625742168839146, 'f1_score': 0.15125640400097584, 'Demographic_parity': 0.011128639574931789, 'Equalized_odds': 0.0015215617963467917}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8020200641506858, 'f1_score': 0.5360626899088438, 'Demographic_parity': 0.0008837521979843388, 'Equalized_odds': 0.07804954502846778}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8209922882686139, 'f1_score': 0.5551975580803798, 'Demographic_parity': 0.07164215863080967, 'Equalized_odds': 0.020597445890185917}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8255647307718555, 'f1_score': 0.5761194029850746, 'Demographic_parity': 0.0008857688419350584, 'Equalized_odds': 0.2798230147176283}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8308878727905549, 'f1_score': 0.57083477658469, 'Demographic_parity': 0.0784717124302698, 'Equalized_odds': 0.014780923446028826}
+Pre-processing: Sensitive_Resampling. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8301371732750973, 'f1_score': 0.56750651607298, 'Demographic_parity': 0.08114832412056154, 'Equalized_odds': 0.0037006561596725773}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.8254964853613594, 'f1_score': 0.5214299082912222, 'Demographic_parity': 0.018445506982398607, 'Equalized_odds': 0.2539117906799406}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.820514570395141, 'f1_score': 0.513143280266568, 'Demographic_parity': 0.0007690765799953647, 'Equalized_odds': 0.2797536914632934}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8199003617006756, 'f1_score': 0.48527403939925884, 'Demographic_parity': 0.062256046476248716, 'Equalized_odds': 0.008147592222533695}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None: {'accuracy': 0.831433836074524, 'f1_score': 0.5722202978870801, 'Demographic_parity': 0.0892451075692588, 'Equalized_odds': 0.04121538735121871}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.80584180713847, 'f1_score': 0.542089167873813, 'Demographic_parity': 0.0011077257167604326, 'Equalized_odds': 0.08819123573221938}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8251552583088787, 'f1_score': 0.5635434412265758, 'Demographic_parity': 0.07842667404870389, 'Equalized_odds': 0.0020917538481941}
+
+
+Filtered Results (satisfying thresholds):
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None {'accuracy': 0.8278168293182283, 'f1_score': 0.5918136223911988, 'Demographic_parity': 0.09418435175883494, 'Equalized_odds': 0.024725494983106167}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds {'accuracy': 0.823380877635979, 'f1_score': 0.5851234369990381, 'Demographic_parity': 0.08738576184670138, 'Equalized_odds': 0.005981692632746505}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Equalized_Odds {'accuracy': 0.8296594554016242, 'f1_score': 0.5902823374917925, 'Demographic_parity': 0.08878810664063627, 'Equalized_odds': 0.009766742319435529}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds {'accuracy': 0.8300689278646011, 'f1_score': 0.5867905741785596, 'Demographic_parity': 0.08450971247236724, 'Equalized_odds': 0.013088230418441205}
+
+
+Bank Marketing Dataset
+
+
+=== Baseline Model Metrics ===
+Accuracy: 0.8987024476555588
+F1 score: 0.4396411092985318
+Demographic Parity Difference: 0.24352861751267824
+Equalized Odds Difference: 0.22574017708909794
+
+
+=== Naive Model Metrics ===
+Accuracy: 0.8986287230905338
+F1 score: 0.4339234252778921
+Demographic Parity Difference: 0.14622118013247004
+Equalized Odds Difference: 0.08658261408160078
+
+
+Pareto Frontier configurations:
+Pre-processing: None. In-training: Baseline. Post-processing:None: {'accuracy': 0.897670303745208, 'f1_score': 0.4269199009083402, 'Demographic_parity': 0.16762055812518167, 'Equalized_odds': 0.1144438295517432}
+Pre-processing: None. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8959746387496313, 'f1_score': 0.41766405282707386, 'Demographic_parity': 0.0010695716228525873, 'Equalized_odds': 0.24243220807969007}
+Pre-processing: None. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8825567679150693, 'f1_score': 0.025688073394495414, 'Demographic_parity': 0.0006220585498833545, 'Equalized_odds': 0.004053680132816822}
+Pre-processing: None. In-training: Reweighting. Post-processing:None: {'accuracy': 0.8958271896195813, 'f1_score': 0.43138832997987925, 'Demographic_parity': 0.16797503153865043, 'Equalized_odds': 0.1063018815716657}
+Pre-processing: None. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8945001474491301, 'f1_score': 0.4213505863323898, 'Demographic_parity': 0.00724094606211563, 'Equalized_odds': 0.21453375760929716}
+Pre-processing: None. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8825567679150693, 'f1_score': 0.023298589822194973, 'Demographic_parity': 0.002668931058893848, 'Equalized_odds': 0.002912285556170449}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.8956797404895311, 'f1_score': 0.37527593818984545, 'Demographic_parity': 0.01459646162229384, 'Equalized_odds': 0.16757747648035415}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8957534650545562, 'f1_score': 0.37267080745341613, 'Demographic_parity': 0.0036759636268755905, 'Equalized_odds': 0.19714305478693966}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None: {'accuracy': 0.8914037157180773, 'f1_score': 0.27616707616707614, 'Demographic_parity': 0.05319997477933197, 'Equalized_odds': 0.025886482512488575}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8893394278973754, 'f1_score': 0.24306606152294502, 'Demographic_parity': 0.0018897559490275925, 'Equalized_odds': 0.10705589374654122}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:None: {'accuracy': 0.8964169861397818, 'f1_score': 0.40390326686465844, 'Demographic_parity': 0.02140501675995409, 'Equalized_odds': 0.1711054233536248}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8967856089649071, 'f1_score': 0.4137353433835846, 'Demographic_parity': 0.005107185276050974, 'Equalized_odds': 0.21721776425013833}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:None: {'accuracy': 0.8931731052786789, 'f1_score': 0.4949459742070408, 'Demographic_parity': 0.0670805692694362, 'Equalized_odds': 0.14600166021029332}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8956797404895311, 'f1_score': 0.4212678936605317, 'Demographic_parity': 0.01287766284375335, 'Equalized_odds': 0.18258162700608746}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.8964907107048068, 'f1_score': 0.39742489270386266, 'Demographic_parity': 0.013058359703113781, 'Equalized_odds': 0.18386137244050912}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8960483633146564, 'f1_score': 0.39066551426101986, 'Demographic_parity': 0.0021247900199971165, 'Equalized_odds': 0.1980561704482568}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None: {'accuracy': 0.873341197286936, 'f1_score': 0.2964782964782965, 'Demographic_parity': 0.046136393577751685, 'Equalized_odds': 0.01723851687880465}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:None: {'accuracy': 0.8964907107048068, 'f1_score': 0.4306569343065693, 'Demographic_parity': 0.1624877420889377, 'Equalized_odds': 0.0988447703375761}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.894426422884105, 'f1_score': 0.3957805907172996, 'Demographic_parity': 0.0021955309181297122, 'Equalized_odds': 0.21581350304371888}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8825567679150693, 'f1_score': 0.018484288354898338, 'Demographic_parity': 0.00019043654823375873, 'Equalized_odds': 0.005264250138350857}
+Pre-processing: Sensitive_Resampling. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8952373930993807, 'f1_score': 0.40816326530612246, 'Demographic_parity': 0.0041042536297001, 'Equalized_odds': 0.19223159933591588}
+Pre-processing: Sensitive_Resampling. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8827779416101444, 'f1_score': 0.020935960591133004, 'Demographic_parity': 0.0014706930198725536, 'Equalized_odds': 0.0011759822910902048}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.8874225892067237, 'f1_score': 0.43297437801708133, 'Demographic_parity': 0.03024865425693607, 'Equalized_odds': 0.17070420586607638}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8876437629017989, 'f1_score': 0.4317673378076063, 'Demographic_parity': 0.015452785320340931, 'Equalized_odds': 0.20098920863309355}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None: {'accuracy': 0.8645679740489531, 'f1_score': 0.386644407345576, 'Demographic_parity': 0.09386368844068095, 'Equalized_odds': 0.029042621696691293}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.8821881450899439, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+
+
+
+Filtered Results (satisfying thresholds):
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:None {'accuracy': 0.8645679740489531, 'f1_score': 0.386644407345576, 'Demographic_parity': 0.09386368844068095, 'Equalized_odds': 0.029042621696691293}
+
+
+The COMPAS dataset
+
+
+=== Baseline Model Metrics ===
+Accuracy: 0.9866050808314087
+F1 score: 0.9849818746763335
+Demographic Parity Difference: 0.3603117505995205
+Equalized Odds Difference: 0.020676691729323307
+=== Naive Model Metrics ===
+Accuracy: 0.9861431870669746
+F1 score: 0.9844559585492227
+Demographic Parity Difference: 0.36121103117506004
+Equalized Odds Difference: 0.022556390977443608
+
+Pareto Frontier configurations:
+Pre-processing: None. In-training: Baseline. Post-processing:None: {'accuracy': 0.9879907621247113, 'f1_score': 0.9865563598759048, 'Demographic_parity': 0.36300959232613916, 'Equalized_odds': 0.020676691729323307}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:None: {'accuracy': 0.9861431870669746, 'f1_score': 0.984472049689441, 'Demographic_parity': 0.3621103117505996, 'Equalized_odds': 0.022556390977443608}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.9861431870669746, 'f1_score': 0.984472049689441, 'Demographic_parity': 0.36121103117506004, 'Equalized_odds': 0.024}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:None: {'accuracy': 0.9861431870669746, 'f1_score': 0.9844074844074844, 'Demographic_parity': 0.3594124700239808, 'Equalized_odds': 0.023809523809523836}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.9214780600461894, 'f1_score': 0.9089935760171306, 'Demographic_parity': 0.09202637889688253, 'Equalized_odds': 0.2}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.9861431870669746, 'f1_score': 0.9844559585492227, 'Demographic_parity': 0.3594124700239808, 'Equalized_odds': 0.02531645569620253}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.9727482678983834, 'f1_score': 0.9695090439276486, 'Demographic_parity': 0.35851318944844124, 'Equalized_odds': 0.048}
+Pre-processing: Sensitive_Resampling. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.9852193995381062, 'f1_score': 0.9835051546391752, 'Demographic_parity': 0.20180740653378942, 'Equalized_odds': 0.2}
+
+
+Filtered Results (satisfying thresholds):
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Demogrphic_Parity {'accuracy': 0.9214780600461894, 'f1_score': 0.9089935760171306, 'Demographic_parity': 0.09202637889688253, 'Equalized_odds': 0.2}
+Pre-processing: Sensitive_Resampling. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds {'accuracy': 0.9852193995381062, 'f1_score': 0.9835051546391752, 'Demographic_parity': 0.20180740653378942, 'Equalized_odds': 0.2}
+
+German Credit Dataset
+
+=== Baseline Model Metrics ===
+Accuracy: 0.77
+F1 score: 0.5548387096774193
+Demographic Parity Difference: 0.15476190476190474
+Equalized Odds Difference: 0.22539682539682537
+
+=== Naive Model Metrics ===
+Accuracy: 0.7633333333333333
+F1 score: 0.5477707006369427
+Demographic Parity Difference: 0.11525974025974026
+Equalized Odds Difference: 0.2698412698412699
+
+Pareto Frontier configurations:
+Pre-processing: None. In-training: Baseline. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.79, 'f1_score': 0.6227544910179641, 'Demographic_parity': 0.019573473561203647, 'Equalized_odds': 0.2206896551724138}
+Pre-processing: None. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None: {'accuracy': 0.74, 'f1_score': 0.4868421052631579, 'Demographic_parity': 0.1266233766233766, 'Equalized_odds': 0.17029862792574657}
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: None. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.7166666666666667, 'f1_score': 0.32, 'Demographic_parity': 0.09231668127373648, 'Equalized_odds': 0.1222222222222222}
+Pre-processing: Correlation_Remover. In-training: Reweighting. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity: {'accuracy': 0.7366666666666667, 'f1_score': 0.4148148148148148, 'Demographic_parity': 0.01798661461238149, 'Equalized_odds': 0.1333333333333333}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.7133333333333334, 'f1_score': 0.5943396226415094, 'Demographic_parity': 0.19719544259421556, 'Equalized_odds': 0.13333333333333341}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+Pre-processing: Sensitive_Resampling. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Equalized_Odds: {'accuracy': 0.6966666666666667, 'f1_score': 0.0, 'Demographic_parity': 0.0, 'Equalized_odds': 0.0}
+
+
+Filtered Results (satisfying thresholds):
+Pre-processing: None. In-training: Exponential_Gradient_Demogrphic_Parity. Post-processing:None {'accuracy': 0.74, 'f1_score': 0.4868421052631579, 'Demographic_parity': 0.1266233766233766, 'Equalized_odds': 0.17029862792574657}
+Pre-processing: Correlation_Remover. In-training: Exponential_Gradient_Equalized_Odds. Post-processing:Threshold_Demogrphic_Parity {'accuracy': 0.7366666666666667, 'f1_score': 0.4148148148148148, 'Demographic_parity': 0.01798661461238149, 'Equalized_odds': 0.1333333333333333}
+Pre-processing: Sensitive_Resampling. In-training: Baseline. Post-processing:Threshold_Equalized_Odds {'accuracy': 0.7133333333333334, 'f1_score': 0.5943396226415094, 'Demographic_parity': 0.19719544259421556, 'Equalized_odds': 0.13333333333333341}
