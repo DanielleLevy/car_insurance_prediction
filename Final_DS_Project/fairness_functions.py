@@ -198,7 +198,7 @@ def run_experiments(pre_methods, in_methods, post_methods, X_train, y_train, sen
         
         # For the test set, if the pre-processing method is sensitive resampling,
         # then use pre_none to leave the test set unchanged.
-        if pre_name.lower() == "sensitiveresampling":
+        if pre_name.lower() == "sensitive_resampling":
             X_test_pre, _, sens_test_pre = pre_none(X_test, y_test, sens_test)
         else:
             X_test_pre, _, sens_test_pre = pre_func(X_test, y_test, sens_test)
@@ -221,7 +221,7 @@ def run_experiments(pre_methods, in_methods, post_methods, X_train, y_train, sen
     return results
 
 
-def filter_results(results, f1_threshold=0.90, dp_threshold=0.10, eo_threshold=0.10):
+def filter_results(results, f1_threshold=0.90, accuracy_threshold = 0.90,dp_threshold=0.10, eo_threshold=0.10):
     """
     Filters experiment results based on user-defined thresholds.
     
@@ -237,6 +237,7 @@ def filter_results(results, f1_threshold=0.90, dp_threshold=0.10, eo_threshold=0
     filtered = {}
     for config, metrics in results.items():
         if (metrics["f1_score"] >= f1_threshold and
+            metrics["accuracy"] >= accuracy_threshold and
             metrics["Demographic_parity"] <= dp_threshold and
             metrics["Equalized_odds"] <= eo_threshold):
             filtered[config] = metrics
