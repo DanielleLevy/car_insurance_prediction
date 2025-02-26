@@ -52,8 +52,6 @@ This project builds upon fairness research from:
 - **Danielle Levy**
 - **Jonathan Mandl**
 
-## ⚖️ License
-This project is open-source and licensed under the MIT License.
 
 
 
