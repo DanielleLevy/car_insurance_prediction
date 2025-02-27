@@ -10,7 +10,7 @@ Final_DS_Project/
 │── fairness_functions.py           # Fairness-related utility functions
 │── pipeline_adult.ipynb            # Fairness evaluation on the Adult dataset
 │── pipeline_bank.ipynb             # Fairness evaluation on the Bank dataset
-│── pipeline_compas.ipynb           # Fairness evaluation on the COMPAS dataset
+│── /pipeline_compas(example_notebook).ipynb  # Fairness evaluation on the COMPAS dataset
 │── pipeline_german_credit.ipynb    # Fairness evaluation on the German Credit dataset
 │── requirements.txt                # Project dependencies
 │── Final_Report.pdf                # Research report (Newly added)
